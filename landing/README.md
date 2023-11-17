@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Landing-Page
+Acetians Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Home PAGE 
+<App>
+<Header>
+<Sidebar ** right Opening ** >
+<Navbar>
+<Logo ** Return to home page ** />
+<Navigate your text ** 1st section of body** />
+<core Capabilities ** 2nd section of body ** />
+<Operating Models ** 3rd section of the body ** />
+<Talent transformation ** 4th section  of the body **/>
+<The next ** 5th section of the body ** />
+<About us ** 6th section of the body ** />
+<Investors ** 7th section of the body ** />
+<careers ** 8th section of the body ** />
+<Contact us ** 9th section of the body **/>
+</Navbar>
+</sidebar>
 
-## Available Scripts
+<SearchBar ** full screeen ** />
+<Naviagte your text ** Navigate Page ** />
+<Infosys knowledge insititute ** Navigate page **/>
+<Investors ** Navigate Page ** />
+<careers ** Navigate Page **/>
+ 
+<Drawer ** Left Opening **>
+<Logo/>
+<Navigate your text  ** navigate page ** />
+<Industries ** Navigate page ** />
+<Services ** Navigate page ** />
+<Platform ** Navigate Page ** />
+<Infosys Living labs ** Navigate page ** />
+<Infosys knowledge insititute ** Navigate Page **/>
+<About us ** Navigate Page **/>
+</Drawer>
+</Header>
 
-In the project directory, you can run:
+<Body ** Mid Opening **>
+1st section -> Crousel and Naviaget to -> **  Navigate your text **.
+2nd section -> Navigate to -> ** core Capabilities ** .
+3rd section -> Navigate to -> ** Operating Models  ** .
+4th section -> Navigate to -> ** Talent transformation ** .
+5th section -> Navigate to -> ** The next ** .
+6th section -> Navigate to -> ** About us ** .
+7th section -> Navigate to -> ** Investors ** .
+8th section -> Navigate to -> ** careers ** .
+9th section -> Navigate to -> ** Contact us ** .
+</Body>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<footer>
+<Company />
+<Subsidiaries />
+<Program />
+<Support />
+<Connect with us />
+</footer>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</App>
