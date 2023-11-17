@@ -7,15 +7,16 @@ import Body from './components/Body';
 function App() {
   return (
     <BrowserRouter >
-    <div className="App">
+    <div className="main-app">
       <Header/>
-      <div className= "flex">
-        <SideBar/>
+
+        
         <Body/>
       </div>
-    </div>
+
     </BrowserRouter>
   );
+
 }
 
 export default App;
