@@ -3,7 +3,7 @@ import Carousel from './Carousel';
 
 const Body = () => {
   return (
-    <div>
+    <div className='w-full'>
       <Carousel/>
     </div>
   )
