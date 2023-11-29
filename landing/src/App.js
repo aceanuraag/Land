@@ -1,23 +1,19 @@
-import './App.css';
-import {BrowserRouter} from "react-router-dom";
-import Header from './components/Header';
-// import SideBar from './components/SideBar';
-import Body from './components/Body';
+// App.js
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Body from "./components/Body";
+import { BrowserRouter } from "react-router-dom";
+import Header from "./components/Header";
 
-function App() {
+const App = () => {
   return (
-    <BrowserRouter >
-    <div className="app pt-2">
-      <Header/> 
-        <div className='flex'>
-          {/* <SideBar /> */}
-          <Body/>
-        </div>
+    <BrowserRouter>
+      <div className="app">
+        <Header />
+        <Body />
       </div>
-
     </BrowserRouter>
   );
-
-}
+};
 
 export default App;

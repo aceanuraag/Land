@@ -1,10 +1,17 @@
 import React from 'react';
-import CarouselSection from './CarouselSection';
+import CarouselBox from './CarouselBox';
+import './CarouselBox.css'
 
 const Body = () => {
   return (
-    <div className='w-full'>
-      <CarouselSection/>
+    <div>
+      <CarouselBox/>
+      <br/>
+      <CarouselBox/>
+      <br/>
+      <CarouselBox/>
+      <br/>
+      <CarouselBox/>
     </div>
   )
 }
