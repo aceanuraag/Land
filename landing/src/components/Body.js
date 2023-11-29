@@ -1,10 +1,10 @@
 import React from 'react';
-import Carousel from './Carousel';
+import CarouselSection from './CarouselSection';
 
 const Body = () => {
   return (
     <div className='w-full'>
-      <Carousel/>
+      <CarouselSection/>
     </div>
   )
 }
