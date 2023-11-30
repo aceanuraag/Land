@@ -16,11 +16,17 @@ const Body = () => {
         <CarouselBox />  
         <br />
         <Introduction />
+        <br/>
          <Services />
+         <br/>
         <AboutUs />
+        <br/>
         <Industries />
+        <br/>
         <Carr />
+        <br/>
         <Cta />
+        <br/>
         <Footer /> 
       </div>
   
