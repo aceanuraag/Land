@@ -10,9 +10,14 @@ const CarouselBox = () => {
     setCurrentIndex(selectedIndex);
   };
 
+  const containerStyle = {
+    padding: "20px", // Add padding as needed
+    borderRadius: "10px", // Add border-radius for rounded corners
+  };
+
   return (
     <div className="carousel-box-container">
-      <Carousel activeIndex={currentIndex} onSelect={handleSelect}>
+      <Carousel activeIndex={currentIndex} onSelect={handleSelect} style={containerStyle}>
         <Carousel.Item>
           <Carousel.Caption>
             <h3>first slide label</h3>
