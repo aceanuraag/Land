@@ -3,13 +3,16 @@ import Button from "react-bootstrap/Button";
 
 const Introduction = () => {
   const containerStyle = {
-    // backgroundImage: "nature.png",
+    backgroundImage: "url('nature.png')", // Replace 'nature.png' with your actual image path
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundColor: "red",
-    padding: "20px", // Add padding as needed
-    Image: "nature.png",
+    padding: "10px", // Add padding as needed
+    display: "flex",
     justifyContent: "center",
+    alignItems: "center",
+    height: "50vh", // Adjust as needed
+    color: "white", // Set text color
   };
 
   const home = {
@@ -20,9 +23,8 @@ const Introduction = () => {
 
   return (
     <div style={containerStyle}>
-      <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+      <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
         <h2 style={home} id="title">
-          {" "}
           Digital Core Capabilities
         </h2>
         <p className="fullpage-desc white-color">
@@ -34,13 +36,10 @@ const Introduction = () => {
         >
           Explore Learn More
         </Button>
-        <br />
         <div className="row hidden-xs">
           <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-xs-20">
             <p>Case studies</p>
-            <h3>
-              Pfizer's journey towards increased productivity, powered by AI
-            </h3>
+            <h3>Pfizer's journey towards increased productivity, powered by AI</h3>
             <p>
               <a
                 href="/navigate-your-next/digital-capabilities/insight/intelligent-automation.html"

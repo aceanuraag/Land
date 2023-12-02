@@ -1,18 +1,11 @@
-/* CarouselBox.css */
-.carousel-box-container {
-    width: 60%;
-    margin: auto;
-    overflow: hidden;
-    
-  }
-  
-  .carousel {
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .carousel img {
-    width: 100%;
-    height: 'auto';
-    display: block;
-  }
-  
+.carousel-container {
+  max-width: 1000px; /* Set the maximum width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.carousel-image {
+  width: 100%; /* Make the image responsive within its container */
+  /* border-radius: 10px; Match the border-radius from containerStyle */
+}
+
+/* Add additional styling as needed */

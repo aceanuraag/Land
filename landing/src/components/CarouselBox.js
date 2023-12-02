@@ -1,4 +1,3 @@
-// CarouselBox.js
 import React, { useState } from "react";
 import { Carousel } from "react-bootstrap";
 import "./CarouselBox.css";
@@ -11,42 +10,42 @@ const CarouselBox = () => {
   };
 
   const containerStyle = {
-    padding: "20px", // Add padding as needed
-    borderRadius: "10px", // Add border-radius for rounded corners
+    padding: "20px",
+    borderRadius: "10px",
   };
 
   return (
-    <div className="carousel-box-container">
-      <Carousel activeIndex={currentIndex} onSelect={handleSelect} style={containerStyle}>
+    <div className="carousel" style={containerStyle}>
+      <Carousel activeIndex={currentIndex} onSelect={handleSelect}>
         <Carousel.Item>
           <Carousel.Caption>
-            <h3>first slide label</h3>
+            <h3>First Slide Label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
           <img
-            className="d-block w-100"
+            className="carousel-image"
             src="https://w0.peakpx.com/wallpaper/250/255/HD-wallpaper-2017-mercedes-benz-sl-500-amg-line-color-brilliant-blue-side-car.jpg"
             alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <Carousel.Caption>
-            <h3>Second slide label</h3>
+            <h3>Second Slide Label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
           <img
-            className="d-block w-100"
+            className="carousel-image"
             src="https://w0.peakpx.com/wallpaper/250/255/HD-wallpaper-2017-mercedes-benz-sl-500-amg-line-color-brilliant-blue-side-car.jpg"
             alt="Second slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <Carousel.Caption>
-            <h3>Third slide label</h3>
+            <h3>Third Slide Label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
           <img
-            className="d-block w-100"
+            className="carousel-image"
             src="https://w0.peakpx.com/wallpaper/250/255/HD-wallpaper-2017-mercedes-benz-sl-500-amg-line-color-brilliant-blue-side-car.jpg"
             alt="Third slide"
           />
