@@ -2,7 +2,6 @@ import React from "react";
 import CarouselBox from "./CarouselBox";
 import "./CarouselBox.css";
 import Introduction from "./Introduction";
-import "./Introduction.css";
 import Services from "./Services";
 import AboutUs from "./AboutUs";
 import Industries from "./Industries";
