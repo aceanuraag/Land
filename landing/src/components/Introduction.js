@@ -18,7 +18,7 @@ const Introduction = () => {
     <div className="carousel-box-container">
       <Container style={containerStyle}>
         <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-          <h2 className="home-second-heading white-color mb20 mb-xs-10">Digital Core Capabilities</h2>
+          <h2 className="home-second-heading white-color mb20 mb-xs-10"  id="title"> Digital Core Capabilities</h2>
           <p className="fullpage-desc white-color">
             <em>Build vital capabilities to deliver digital outcomes.</em>
           </p>

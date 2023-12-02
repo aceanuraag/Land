@@ -8,12 +8,29 @@ const Footer = () => {
     backgroundColor:'orange',
     backgroundPosition:'center',
     backgroundSize:'cover',
+    height : '100px'
   }
+
+  const ulStyle={
+    display: 'flex',
+    listStyle :'none',
+    justifyContent: 'space-between',
+  }
+
   return (
-    <div className='carousel-box-container'>
-      <Container style={containerStyle}>
-      <h1>This is Footer Pages</h1>
-      </Container>
+    <div className='footer' style={containerStyle}>
+     
+      <ul style={ulStyle}>
+        <li>gh</li>
+        <li>gh</li>
+        <li>gh</li>
+        <li>gh</li>
+        <li>gh</li>
+        <li>gh</li>
+        <li>gh</li>
+        <li>gh</li>
+      </ul>
+      
     </div>
   )
 }

@@ -1,0 +1,17 @@
+
+body{
+
+    background-color: aquamarine  m !important;
+    background: green;
+    
+}
+
+
+.footer{
+    border-radius:'10px';
+    padding:'20px';
+    background-color:'orange';
+    background-position:'center';
+    background-size:'cover';
+    height : '100px';
+}
