@@ -3,16 +3,18 @@ import Button from "react-bootstrap/Button";
 
 const Introduction = () => {
   const containerStyle = {
-    backgroundImage: "url('nature.png')", // Replace 'nature.png' with your actual image path
+    backgroundImage: "url('https://images.freecreatives.com/wp-content/uploads/2016/04/Best-Website-New-Wallpaper.jpg')", // Replace 'nature.png' with your actual image path
     backgroundSize: "cover",
     backgroundPosition: "center",
-    backgroundColor: "red",
+    backgroundColor: "rgba(255, 99, 71, 0.5)",
     padding: "10px", // Add padding as needed
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    height: "50vh", // Adjust as needed
-    color: "white", // Set text color
+    height: "60vh", // Adjust as needed
+    color: "black", // Set text color
+    // border: "5px solid tomato",
+    backgroundAttachment: 'scroll',
   };
 
   const home = {
@@ -39,7 +41,9 @@ const Introduction = () => {
         <div className="row hidden-xs">
           <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-xs-20">
             <p>Case studies</p>
-            <h3>Pfizer's journey towards increased productivity, powered by AI</h3>
+            <h3>
+              Pfizer's journey towards increased productivity, powered by AI
+            </h3>
             <p>
               <a
                 href="/navigate-your-next/digital-capabilities/insight/intelligent-automation.html"

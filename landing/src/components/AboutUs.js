@@ -1,19 +1,22 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
 
 const AboutUs = () => {
   const containerStyle = {
-    borderRadius:'10px',
+    backgroundImage: "url('https://www.blackswantechnologies.ai/wp-content/uploads/2021/08/Graph-network-scaled-e1629969799626.jpg ')",
     padding:'20px',
     backgroundColor:'orange',
     backgroundPosition:'center',
     backgroundSize:'cover',
+    display:'flex',
+    justifyContent:'center',
+    alignItems:'center',
+
   }
   return (
-    <div className='carousel-box-container'>
-      <Container style={containerStyle}>
+    <div style={containerStyle}>
+     
       <h1>This is AboutUs pages</h1>
-      </Container>
+     
     </div>
   )
 }

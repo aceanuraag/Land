@@ -1,19 +1,21 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
 
 const Services = () => {
   const containerStyle = {
-    backgroundColor: "green",
-    borderRadius:"10px",
+    backgroundImage: "url('https://th.bing.com/th/id/R.7b026c4ecbf496cef4e5d1b8137a6253?rik=qOCyw9aX57jmtw&pid=ImgRaw&r=0')",
+    // borderRadius:"10px",
     backgroundSize: "cover",
     backgroundPosition: "center",
-    padding: "20px",
+    padding: "10px",
+    alignItems: "center",
+    justifyContent: "center",
+    display: "flex",
+
   };
   return (
-    <div className="carousel-box-container">
-      <Container style={containerStyle}>
+    <div style={containerStyle}>
+      
         <h1>This is Services pages</h1>
-      </Container>
     </div>
   );
 };
