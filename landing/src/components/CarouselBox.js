@@ -15,7 +15,7 @@ const CarouselBox = () => {
   };
 
   return (
-    <div className="carousel" style={containerStyle}>
+    <div className="carousel-container" style={containerStyle}>
       <Carousel activeIndex={currentIndex} onSelect={handleSelect}>
         <Carousel.Item>
           <Carousel.Caption>

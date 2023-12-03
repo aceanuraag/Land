@@ -25,7 +25,7 @@ const Footer = () => {
         <FooterColumn title='Support' items={['Terms of Use', 'Privacy Statements', 'Cookie Policy', 'Site Map', 'Modern Slavery Statements', 'Payment Guide for Suppliers']} />
 
         {/* Create a FooterColumn component with the title 'Connect with us' and specific items */}
-        <FooterColumn title='Connect with us' items={['X', 'f', 'in', 'Youtube']} />
+        <FooterColumn  title='Connect with us' items={['X', 'f', 'in', 'Youtube']} />
       </div>
     </div>
   );
