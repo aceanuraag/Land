@@ -24,6 +24,16 @@ const Body = () => {
         
         <Carr />
         
+        <Introduction />
+        
+         <Services />
+         
+        <AboutUs />
+       
+        <Industries />
+        
+        <Carr />
+        
         <Cta />
         
         <Footer /> 

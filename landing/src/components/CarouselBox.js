@@ -10,12 +10,16 @@ const CarouselBox = () => {
   };
 
   const containerStyle = {
-    padding: "20px",
-    borderRadius: "10px",
+    position:"absolute",
+    top: "0",
+    width : "100%",
+    height : "100vh",
+    borderBottom : "2px solid tomato",
+    
   };
 
   return (
-    <div className="carousel-container" style={containerStyle}>
+    <div className="" style={containerStyle}>
       <Carousel activeIndex={currentIndex} onSelect={handleSelect}>
         <Carousel.Item>
           <Carousel.Caption>

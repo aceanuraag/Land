@@ -7,7 +7,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 const Header = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" style={{zIndex : 1000,}}>
       <Container>
         <Navbar.Brand href="#home">Acetians</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -19,10 +19,7 @@ const Header = () => {
             <Nav.Link href="#contact us">Contact Us</Nav.Link>
             <Nav.Link href="#about us">About Us</Nav.Link>
             <Nav.Link href="#search"><Button variant="primary">Search</Button></Nav.Link>
-            
-
-            
-            
+           
             {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
