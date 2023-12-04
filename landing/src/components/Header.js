@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
-import Button from "react-bootstrap/Button";
 import Navbar from "react-bootstrap/Navbar";
 // import NavDropdown from "react-bootstrap/NavDropdown";
 
@@ -12,13 +11,13 @@ const Header = () => {
         <Navbar.Brand href="#home">Acetians</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="w3-padding w3-display-topright">
       
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#link">Link</Nav.Link>
             <Nav.Link href="#contact us">Contact Us</Nav.Link>
             <Nav.Link href="#about us">About Us</Nav.Link>
-            <Nav.Link href="#search"><Button variant="primary">Search</Button></Nav.Link>
+            <Nav.Link href="#search"><i class="material-icons">search</i></Nav.Link>
            
             {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>

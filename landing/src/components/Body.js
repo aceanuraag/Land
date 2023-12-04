@@ -13,16 +13,6 @@ const Body = () => {
   return (
       <div>
         <CarouselBox />  
-       
-        <Introduction />
-        
-         <Services />
-         
-        <AboutUs />
-       
-        <Industries />
-        
-        <Carr />
         
         <Introduction />
         

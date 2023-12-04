@@ -16,6 +16,7 @@ const AboutUs = () => {
     <div style={containerStyle}>
      
       <h1>This is AboutUs pages</h1>
+      
      
     </div>
   )
