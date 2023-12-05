@@ -10,20 +10,21 @@ const Services = () => {
     padding: "10px",
     alignItems: "center",
     justifyContent: "center",
-    display: "blok",
+    display: "flex",
     flexDirection: "column",
   };
 
   const cardGridContainerStyle = {
     display: "grid",
     gridTemplateColumns: "repeat(2, 1fr)",
-    gap: "20px",
+    gap: "10px",
     listStyle: "none",
   };
 
   const cardStyle = {
     width: "18rem",
     margin: "10px",
+    display:'flex'
   };
 
   return (
@@ -34,8 +35,8 @@ const Services = () => {
       </p>
       <div className="flex">
         <div class="w3-container w3 w3-cell">
-          <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src="holder.js/100px300" />
+          <Card style={cardStyle}>
+            <Card.Img variant="top" src="https://www.infosys.com/content/dam/infosys-web/en/home/images/experience.jpg" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -47,15 +48,14 @@ const Services = () => {
         </div>
         <div class="w3-container w3 w3-cell">
           <ul style={{ listStyle: "none" }}>
-            <li></li>
             <li>
               <ul style={{ listStyle: "none", ...cardGridContainerStyle }}>
-                {[1, 2, 3, 4].map((index) => (
+                {/* {[1, 2, 3, 4].map((index) => (
                   <li key={index}>
                     <Card style={cardStyle}>
                       <Card.Img
                         variant="top"
-                        src={`holder.js/1000px180?text=Card ${index}`}
+                        src={`https://www.infosys.com/content/dam/infosys-web/en/home/images/innovate.jpg ${index}`}
                       />
                       <Card.Body>
                         <Card.Title>Card Title</Card.Title>
@@ -65,8 +65,56 @@ const Services = () => {
                         </Card.Text>
                       </Card.Body>
                     </Card>
-                  </li>
-                ))}
+                  </li> */}
+                {/* ))} */}
+                <li>
+                  <Card style={cardStyle}>
+                    <Card.Img variant="top" src="https://www.infosys.com/content/dam/infosys-web/en/home/images/insight.jpg" />
+                    <Card.Body>
+                      <Card.Title>Card Title</Card.Title>
+                      <Card.Text>
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                </li>
+                <li>
+                  <Card style={cardStyle}>
+                    <Card.Img variant="top" src="https://www.infosys.com/content/dam/infosys-web/en/home/images/innovate.jpg" />
+                    <Card.Body>
+                      <Card.Title>Card Title</Card.Title>
+                      <Card.Text>
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                </li>
+                <li>
+                  <Card style={cardStyle}>
+                    <Card.Img variant="top" src="https://www.infosys.com/content/dam/infosys-web/en/home/images/accelerate.jpg" />
+                    <Card.Body>
+                      <Card.Title>Card Title</Card.Title>
+                      <Card.Text>
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                </li>
+                <li>
+                  <Card style={cardStyle}>
+                    <Card.Img variant="top" src="https://th.bing.com/th/id/OIP.7xgO_DC9HV4Zg3-KRtaH9QHaHa?rs=1&pid=ImgDetMain/100px180" />
+                    <Card.Body>
+                      <Card.Title>Card Title</Card.Title>
+                      <Card.Text>
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                </li>
               </ul>
             </li>
           </ul>

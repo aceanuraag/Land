@@ -1,6 +1,6 @@
 .cta{
     background-image: url('./../images/cta.jpg');
-    min-height: 600px;
+    min-height: 700px;
     width:auto ;
     margin-inline: 50px;
     margin-block: 100px;
@@ -13,7 +13,7 @@
 
 .cta> form> div{
     padding: 3px;
-    margin: 5px;
+    margin: 0px;
 
 }
 
