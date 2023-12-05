@@ -3,7 +3,8 @@ import Button from "react-bootstrap/Button";
 
 const Introduction = () => {
   const containerStyle = {
-    backgroundImage: "url('https://images.freecreatives.com/wp-content/uploads/2016/04/Best-Website-New-Wallpaper.jpg')", // Replace 'nature.png' with your actual image path
+    backgroundImage:
+      "url('https://images.freecreatives.com/wp-content/uploads/2016/04/Best-Website-New-Wallpaper.jpg')", // Replace 'nature.png' with your actual image path
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundColor: "rgba(255, 99, 71, 0.5)",
@@ -14,7 +15,7 @@ const Introduction = () => {
     height: "60vh", // Adjust as needed
     color: "black", // Set text color
     // border: "5px solid tomato",
-    backgroundAttachment: 'scroll',
+    backgroundAttachment: "scroll",
   };
 
   const home = {

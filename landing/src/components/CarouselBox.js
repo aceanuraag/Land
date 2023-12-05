@@ -1,6 +1,6 @@
 // CarouselBox.js
-import React, { useState } from 'react';
-import { Carousel } from 'react-bootstrap';
+import React, { useState } from "react";
+import { Carousel } from "react-bootstrap";
 
 const CarouselBox = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -10,7 +10,7 @@ const CarouselBox = () => {
   };
 
   return (
-    <div className="" >
+    <div className="">
       <Carousel activeIndex={currentIndex} onSelect={handleSelect}>
         <Carousel.Item>
           <img

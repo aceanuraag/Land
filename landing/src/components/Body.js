@@ -11,24 +11,23 @@ import Footer from "./Footer";
 
 const Body = () => {
   return (
-      <div>
-        <CarouselBox />  
-        
-        <Introduction />
-        
-         <Services />
-         
-        <AboutUs />
-       
-        <Industries />
-        
-        <Carr />
-        
-        <Cta />
-        
-        <Footer /> 
-      </div>
-  
+    <div>
+      <CarouselBox />
+
+      <Introduction />
+
+      <Services />
+
+      <AboutUs />
+
+      <Industries />
+
+      <Carr />
+
+      <Cta />
+
+      <Footer />
+    </div>
   );
 };
 

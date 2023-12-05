@@ -1,36 +1,35 @@
 .container {
-    background-color: #f5f5f5;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .background-image {
-    background-image: url('https://th.bing.com/th/id/R.7b026c4ecbf496cef4e5d1b8137a6253?rik=qOCyw9aX57jmtw&pid=ImgRaw&r=0');
-    background-size: cover;
-    background-position: center;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-  }
-  
-  .flex-container {
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .w3-container {
-    width: 50%; /* Adjust as needed */
-  }
-  
-  .card-grid {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-  
-  /* Add any additional styling as needed */
-  
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+.background-image {
+  background-image: url("https://th.bing.com/th/id/R.7b026c4ecbf496cef4e5d1b8137a6253?rik=qOCyw9aX57jmtw&pid=ImgRaw&r=0");
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.w3-container {
+  width: 50%; /* Adjust as needed */
+}
+
+.card-grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* Add any additional styling as needed */

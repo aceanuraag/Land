@@ -14,8 +14,6 @@ const Services = () => {
     flexDirection: "column",
   };
 
-  
-
   const cardGridContainerStyle = {
     display: "grid",
     gridTemplateColumns: "repeat(2, 1fr)",

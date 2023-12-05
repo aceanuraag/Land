@@ -3,7 +3,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Body from "./components/Body";
 import { BrowserRouter } from "react-router-dom";
-import Header from "./components/Header"; 
+import Header from "./components/Header";
 // import SideBar from "./components/SideBar";
 
 const App = () => {
@@ -11,11 +11,8 @@ const App = () => {
     <BrowserRouter>
       <div className="app">
         <Header />
-       
-       {/* <SideBar/> */}
-        <Body />
-     \
-        
+        {/* <SideBar/> */}
+        <Body />\
       </div>
     </BrowserRouter>
   );
