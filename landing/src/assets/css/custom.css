@@ -1,0 +1,30 @@
+.cta{
+    background-image: url('./../images/cta.jpg');
+    min-height: 600px;
+    width:auto ;
+    margin-inline: 50px;
+    margin-block: 100px;
+    background-position: center;
+    /* background-size: 100px 100%; */
+    background-repeat: no-repeat;
+    padding-inline :60px ;
+    padding-block: 100px;
+}
+
+.cta> form> div{
+    padding: 3px;
+    margin: 5px;
+
+}
+
+.cta> form> div> label{
+    font-size: 20px;
+    
+}
+
+.cta> form> div> input{
+    border:"1px solid black";
+    border-radius : 4px;
+    height: 30px;
+    
+}

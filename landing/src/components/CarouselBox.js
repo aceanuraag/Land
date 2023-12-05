@@ -15,21 +15,21 @@ const CarouselBox = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://w0.peakpx.com/wallpaper/250/255/HD-wallpaper-2017-mercedes-benz-sl-500-amg-line-color-brilliant-blue-side-car.jpg"
+            src="https://www.infosys.com/content/dam/infosys-web/en/global-resource/18/banner/iga-swiatek-lead.jpg"
             alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://w0.peakpx.com/wallpaper/250/255/HD-wallpaper-2017-mercedes-benz-sl-500-amg-line-color-brilliant-blue-side-car.jpg"
+            src="https://www.infosys.com/content/dam/infosys-web/en/global-resource/18/banner/iga-swiatek-lead.jpg"
             alt="Second slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://w0.peakpx.com/wallpaper/250/255/HD-wallpaper-2017-mercedes-benz-sl-500-amg-line-color-brilliant-blue-side-car.jpg"
+            src="https://www.infosys.com/content/dam/infosys-web/en/global-resource/18/banner/iga-swiatek-lead.jpg"
             alt="Third slide"
           />
         </Carousel.Item>
