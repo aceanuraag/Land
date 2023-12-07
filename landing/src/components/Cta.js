@@ -1,35 +1,47 @@
-import React from "react";
+import React, { useState } from "react";
 import "./../assets/css/custom.css";
 
 const Cta = () => {
-  const containerStyle = {
-    padding: "20px",
-    backgroundColor: "brown",
-    backgroundPosition: "center",
-    backgroundSize: "cover",
-    alignItems: "center",
-    justifyContent: "center",
-    display: "flex",
-    backgroundImage:
-      "url('https://th.bing.com/th/id/R.a4ccea5c4521f42034f6a44ae4811801?rik=oFwykgkakbJhRQ&riu=http%3a%2f%2fmedia.istockphoto.com%2fvectors%2fpanorama-of-foggy-mountain-ridges-vector-id479704900%3fk%3d6%26m%3d479704900%26s%3d170667a%26w%3d0%26h%3dVi9RRQUQptBFEVfMeiT1XXMPO6dAf6dENaNz9ev36tQ%3d&ehk=T2a7kEe3vdjW1tRIFPWBQ37tMKlebPvgkUED1ngJ1BU%3d&risl=&pid=ImgRaw&r=0')",
+  const [validated, setValidated] = useState(false);
+
+  const handleSubmit = (event) => {
+    const form = event.currentTarget;
+    if (form.checkValidity() === false) {
+      event.preventDefault();
+      event.stopPropagation();
+    }
+
+    setValidated(true);
   };
+
   return (
-    <div className="cta">
+    <div className="cta container">
       <h1>Don't hesitate to reach Us</h1>
-      <form method="post">
-        <div>
-          <label>Label 1</label>
-          <input placeholder="Input 1" />
+      <form
+        method="post"
+        noValidate
+        validated={validated}
+        onSubmit={handleSubmit}
+      >
+        <div className="mb-3">
+          <label className="form-label">Name</label><br/>
+          <input type="text"  placeholder="Name" required />
         </div>
-        <div>
-          <label>Label 2</label>
-          <input placeholder="Input 2" />
+        <div className="mb-3">
+          <label className="form-label">Email</label><br/>
+          <input type="email" className="form" placeholder="Email" required />
         </div>
-        <div>
-          <label>Label 3</label>
-          <input placeholder="Input 3" />
+        <div className="mb-3">
+          <label className="form-label">Password</label><br/>
+          <input type="password"  placeholder="Password" required />
         </div>
-        <button type="submit"></button>
+        <div className="mb-3">
+          <label className="form-label">Mobile</label><br/>
+          <input type="tel"  placeholder="Mobile No" required />
+        </div>
+        <button className="w3-btn w3-round-large w3-black" type="submit">
+          Submit
+        </button>
       </form>
     </div>
   );

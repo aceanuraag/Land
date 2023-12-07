@@ -1,15 +1,15 @@
 .cta{
     background-image: url('./../images/cta.jpg');
     min-height: 700px;
-    width:auto ;
+    /* width:auto ; */
     margin-inline: 50px;
-    margin-block: 100px;
+    margin-block: 50px;
     background-position: center;
     /* background-size: 100px 100%; */
     background-repeat: no-repeat;
-    padding-inline :60px ;
-    padding-block: 100px;
-}
+    /* padding-inline :60px ;
+    padding-block: 100px;*/
+} 
 
 .cta> form> div{
     padding: 3px;
@@ -25,6 +25,5 @@
 .cta> form> div> input{
     border:"1px solid black";
     border-radius : 4px;
-    height: 30px;
-    
+    height: 30px;   
 }
