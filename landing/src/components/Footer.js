@@ -3,12 +3,13 @@ import React from "react";
 
 // Import a separate CSS file for styling (you can adjust the file name)
 import "./Footer.css";
+import './../assets/css/custom.css';
 
 // Define a functional component named Footer
 const Footer = () => {
   return (
     // Outer container for the entire footer
-    <div className="footer-container">
+    <div className="footer-container app_footer">
       {/* Inner container for the footer content */}
       <div className="footer">
         {/* Create a FooterColumn component with the title 'Company' and specific items */}
