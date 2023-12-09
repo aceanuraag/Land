@@ -12,8 +12,9 @@ const AboutUs = () => {
   const cardGridContainerStyle = {
     display: "grid",
     gridTemplateColumns: "repeat(2, 1fr)",
-    gap: "10px",
+    
     listStyle: "none",
+    
   };
 
 
@@ -38,7 +39,7 @@ const AboutUs = () => {
         </div>
       </div>
       <div className="cards-container">
-      <ul style={{ display: "flex", marginLeft: "10vh" }}>
+      <ul style={{ display: "flex", marginLeft: "10vh" , height:"900px"}}>
         <li style={{ listStyle: "none", display: "flex" }}>
           <Card style={cardStyle} className="custom-card">
             <Card.Img
@@ -55,7 +56,7 @@ const AboutUs = () => {
           </Card>
         </li>
         <div class="w3-container w3 w3-cell">
-          <ul style={{ listStyle: "none" }}>
+          <ul style={{ listStyle: "none"}}>
             <li>
               <ul style={{ listStyle: "none", ...cardGridContainerStyle }}>
                 <li>
