@@ -34,9 +34,13 @@ const Services = () => {
         We bring you powerful advantages to navigate your digital transformation
       </p>
       <div className="flex">
-        <div class="w3-container w3 w3-cell">
+      <ul style={{display:"flex"}} >
+        <li style={{ listStyle: "none",display:"flex" }}>
           <Card style={cardStyle}>
-            <Card.Img variant="top" src="https://www.infosys.com/content/dam/infosys-web/en/home/images/experience.jpg" />
+            <Card.Img
+              variant="top"
+              src="https://www.infosys.com/content/dam/infosys-web/en/home/images/insight.jpg"
+            />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -45,31 +49,17 @@ const Services = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-        </div>
+        </li>
         <div class="w3-container w3 w3-cell">
           <ul style={{ listStyle: "none" }}>
             <li>
               <ul style={{ listStyle: "none", ...cardGridContainerStyle }}>
-                {/* {[1, 2, 3, 4].map((index) => (
-                  <li key={index}>
-                    <Card style={cardStyle}>
-                      <Card.Img
-                        variant="top"
-                        src={`https://www.infosys.com/content/dam/infosys-web/en/home/images/innovate.jpg ${index}`}
-                      />
-                      <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                          Some quick example text to build on the card title and
-                          make up the bulk of the card's content.
-                        </Card.Text>
-                      </Card.Body>
-                    </Card>
-                  </li> */}
-                {/* ))} */}
                 <li>
                   <Card style={cardStyle}>
-                    <Card.Img variant="top" src="https://www.infosys.com/content/dam/infosys-web/en/home/images/insight.jpg" />
+                    <Card.Img
+                      variant="top"
+                      src="https://www.infosys.com/content/dam/infosys-web/en/home/images/insight.jpg"
+                    />
                     <Card.Body>
                       <Card.Title>Card Title</Card.Title>
                       <Card.Text>
@@ -81,7 +71,10 @@ const Services = () => {
                 </li>
                 <li>
                   <Card style={cardStyle}>
-                    <Card.Img variant="top" src="https://www.infosys.com/content/dam/infosys-web/en/home/images/innovate.jpg" />
+                    <Card.Img
+                      variant="top"
+                      src="https://www.infosys.com/content/dam/infosys-web/en/home/images/innovate.jpg"
+                    />
                     <Card.Body>
                       <Card.Title>Card Title</Card.Title>
                       <Card.Text>
@@ -93,7 +86,10 @@ const Services = () => {
                 </li>
                 <li>
                   <Card style={cardStyle}>
-                    <Card.Img variant="top" src="https://www.infosys.com/content/dam/infosys-web/en/home/images/accelerate.jpg" />
+                    <Card.Img
+                      variant="top"
+                      src="https://www.infosys.com/content/dam/infosys-web/en/home/images/accelerate.jpg"
+                    />
                     <Card.Body>
                       <Card.Title>Card Title</Card.Title>
                       <Card.Text>
@@ -105,7 +101,10 @@ const Services = () => {
                 </li>
                 <li>
                   <Card style={cardStyle}>
-                    <Card.Img variant="top" src="https://th.bing.com/th/id/OIP.7xgO_DC9HV4Zg3-KRtaH9QHaHa?rs=1&pid=ImgDetMain/100px180" />
+                    <Card.Img
+                      variant="top"
+                      src="https://th.bing.com/th/id/OIP.7xgO_DC9HV4Zg3-KRtaH9QHaHa?rs=1&pid=ImgDetMain/100px180"
+                    />
                     <Card.Body>
                       <Card.Title>Card Title</Card.Title>
                       <Card.Text>
@@ -119,8 +118,10 @@ const Services = () => {
             </li>
           </ul>
         </div>
+      </ul>
+        </div>
       </div>
-    </div>
+    
   );
 };
 
