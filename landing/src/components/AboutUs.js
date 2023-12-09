@@ -1,18 +1,8 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import "./AboutUs.css"; // Import your CSS file for styling
 
 const AboutUs = () => {
-  // const containerStyle = {
-  //   backgroundImage:
-  //     "url('https://www.blackswantechnologies.ai/wp-content/uploads/2021/08/Graph-network-scaled-e1629969799626.jpg ')",
-  //   padding: "20px",
-  //   backgroundColor: "orange",
-  //   backgroundPosition: "center",
-  //   backgroundSize: "cover",
-  //   display: "flex",
-  //   justifyContent: "center",
-  //   alignItems: "center",
-  // };
   const cardStyle = {
     width: "18rem",
     margin: "10px",
@@ -22,50 +12,33 @@ const AboutUs = () => {
   const cardGridContainerStyle = {
     display: "grid",
     gridTemplateColumns: "repeat(2, 1fr)",
-    gap: "-10px",
+    gap: "10px",
     listStyle: "none",
   };
 
+
   return (
-    <div
-      class="w3-container w3-teal"
-      style={{
-        alignItems: "center",
-        justifyContent: "center",
-        display: "",
-      }}
-    >
-      <h1
-        id="title"
-        style={{ fontSize: "50px", fontStyle: "inherit", marginLeft: "90vh" }}
-      >
-        {" "}
-        About Us{" "}
-      </h1>
-      <p style={{ fontSize: "20px", fontFamily: "bold", marginLeft: "65vh" }}>
+    <div className="about-us-container">
+      <h1 id="title">About Us</h1>
+      <p className="sub-title">
         A global leader in next-generation digital services and consulting
       </p>
-      <ul
-        style={{
-          display: "flex",
-          listStyle: "none",
-          justifyContent: "space-between",
-        }}
-      >
-        <li>
+      <div className="stats-container">
+        <div className="stat">
           <h1>56+</h1>
           <p>countries where we have trusting clients</p>
-        </li>
-        <li>
+        </div>
+        <div className="stat">
           <h1>US$18.55</h1>
           <p>billion total revenue (LTM)</p>
-        </li>
-        <li>
+        </div>
+        <div className="stat">
           <h1>5,575,490+</h1>
           <p>Training (days) conducted for employees, globally</p>
-        </li>
-      </ul>
-      <ul style={{ display: "flex", marginLeft: "30vh" }}>
+        </div>
+      </div>
+      <div className="cards-container">
+      <ul style={{ display: "flex", marginLeft: "20vh" }}>
         <li style={{ listStyle: "none", display: "flex" }}>
           <Card style={cardStyle}>
             <Card.Img
@@ -150,6 +123,21 @@ const AboutUs = () => {
           </ul>
         </div>
       </ul>
+        {/* <Card className="custom-card">
+          <Card.Img
+            variant="top"
+            src="https://www.infosys.com/content/dam/infosys-web/en/home/images/insight.jpg"
+          />
+          <Card.Body>
+            <Card.Title>Card Title</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </Card.Text>
+          </Card.Body>
+        </Card> */}
+        {/* Add more cards here as needed */}
+      </div>
     </div>
   );
 };
