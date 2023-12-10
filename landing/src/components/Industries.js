@@ -17,7 +17,7 @@ const Industries = () => {
           style={{
             display: "flex",
             justifyContent: "space-around",
-            padding: "10px 0",
+            padding: "50px",
           }}
         >
           <li className="w3-container" style={{ listStyle: "none" }}>
@@ -26,18 +26,18 @@ const Industries = () => {
               alt="Image"
               className="zoomable-image"
               style={{ maxWidth: "100%", height: "auto" }}
-            />
+            /> 
           </li>
           <li className="w3-container" style={{ listStyle: "none" }}>
-            <h1 style={{ margin: "15px " }}>Investor central</h1>
+            <h1 style={{ margin: "15px ",   fontWeight:"bold", fontSize:"7vh", color:"black" }}>Investor central</h1>
             <ul style={{ listStyle: "none" }}>
-              <li>
+              <li style={{ color:"black"}}>
                 <h5>RESULTS</h5>
                 <h4>Second Quarter FY24</h4>
               </li>
               {/* <InvestorColumn title="Result" items={["Second Quarter FY24"]} /> */}
               <hr className="divider" />
-              <li>
+              <li style={{ color:"black"}}>
                 <h5>Archived webcast</h5>
                 <h4>Q2 FY24 Press Conference</h4>
               </li>
@@ -46,7 +46,7 @@ const Industries = () => {
                 items={["Q2 FY24 Press Conference"]}
               /> */}
               <hr className="divider" />
-              <li>
+              <li style={{ color:"black"}}>
                 <h5>Event</h5>
                 <h4>
                   The 42<sup>th</sup> Annual General Meeting
