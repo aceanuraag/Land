@@ -15,21 +15,21 @@ const Carr = () => {
     textAlign: "center",
     color: "#333",
     margin: "0",
-    fontWeight: "600",
+    fontWeight: "bold",
     fontFamily: "tungstenw05-medium, Oswald, sans-serif",
-    fontSize: "36px",
-    lineHeight: "1.2",
+    fontSize: "50px",
+    lineHeight: "1",
     boxSizing: "border-box",
-    marginBlockStart: "0.83em",
-    marginBlockEnd: "0.83em",
-    marginInlineStart: "0px",
-    marginInlineEnd: "0px",
+    // marginBlockStart: "0.83em",
+    // marginBlockEnd: "0.83em",
+    // marginInlineStart: "0px",
+    // marginInlineEnd: "0px",
   };
 
   const paragraphStyle = {
     textAlign: "center",
     color: "#333",
-    boxSizing: "border-box",
+    // boxSizing: "border-box",
     fontSize: "20px", // Adjusted font size for better readability
   };
 
@@ -42,7 +42,7 @@ const Carr = () => {
   return (
     <div className="Career">
       <h1 style={headingStyle}>Careers</h1>
-      <p style={paragraphStyle}>
+      <p className="sub-title"style={paragraphStyle}>
         Every Infoscion is the navigator of our clients’ digital transformation
       </p>
       <div style={containerStyle}>

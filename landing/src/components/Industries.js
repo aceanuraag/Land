@@ -3,12 +3,12 @@ import "./Industries.css";
 
 const Industries = () => {
   return (
-    <div className="w3-container w3-teal">
-      <h1 title="investors" style={{ marginLeft: "100vh" }}>
+    <div className="w3-container w3-white">
+      <h1 title="investors" style={{ marginLeft: "100vh", style:"black", fontSize:"50px" }}>
         {" "}
         Investors{" "}
       </h1>
-      <p className="sub-title" style={{ marginLeft: "70vh" }}>
+      <p className="sub-title" style={{ marginLeft: "70vh", color:"black" }}>
         Maximizing shareholder value with good corporate governance
       </p>
 

@@ -18,9 +18,9 @@ const AboutUs = () => {
 
 
   return (
-    <div className="about-us-container">
-      <h1 id="title">About Us</h1>
-      <p className="sub-title">
+    <div >
+      <h1 id="title" style={{color:"black", marginLeft:"90vh"}}>About Us</h1>
+      <p className="sub-title" style={{color:"black",  marginLeft:"60vh"}}>
         A global leader in next-generation digital services and consulting
       </p>
       <div className="stats-container">
