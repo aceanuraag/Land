@@ -39,7 +39,7 @@ const AboutUs = () => {
       </div>
       <div className="cards-container">
         <ul style={{ display: "flex" }}>
-          <li style={{ listStyle: "none",  }}>
+          <li style={{ listStyle: "none" }}>
             <div class="w3-card-4">
               <div class="w3-display-container w3-text-white">
                 <img src="https://th.bing.com/th/id/OIP.vlSqXpPPvVIYXW6GPhy0RQHaJ4?rs=1&pid=ImgDetMain" alt="Lights" style={{width:"100%"}} />
