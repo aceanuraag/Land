@@ -1,0 +1,17 @@
+
+.image-container {
+    overflow: hidden;
+    position: relative;
+    width: 210vh; /* Set your desired width */
+    height: 100vh; /* Set your desired height */
+  }
+  
+  .zoomable-image {
+    width: 70%;
+    height: 70%;
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .zoomable-image:hover {
+    transform: scale(1.1); /* Increase the scale factor for zoom effect */
+  }
