@@ -1,5 +1,6 @@
 import React from "react";
 import "./Industries.css";
+import { Link } from 'react-router-dom';
 
 const Industries = () => {
   return (
@@ -53,7 +54,7 @@ const Industries = () => {
                 </h4>
               </li>
               <hr className="divider" />
-              <button>VIEW ALL</button>
+              <Link to="https://www.google.com/">VIEW ALL</Link>
             </ul>
           </li>
         </ul>
