@@ -12,7 +12,6 @@ const AboutUs = () => {
   const cardGridContainerStyle = {
     display: "grid",
     gridTemplateColumns: "repeat(2, 1fr)",
-    
     listStyle: "none",
     
   };
@@ -39,21 +38,21 @@ const AboutUs = () => {
         </div>
       </div>
       <div className="cards-container">
-      <ul style={{ display: "flex", marginLeft: "10vh" , height:"900px"}}>
+      <ul style={{ display: "flex",}}>
         <li style={{ listStyle: "none", display: "flex" }}>
-          <Card style={cardStyle} className="custom-card">
-            <Card.Img
-              variant="top"
-              src="https://www.infosys.com/content/dam/infosys-web/en/home/images/insight.jpg"
-            />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
-            </Card.Body>
-          </Card>
+        <Card style={cardStyle}>
+              <Card.Img
+                variant="top"
+                src="https://www.infosys.com/content/dam/infosys-web/en/home/images/insight.jpg"
+              />
+              {/* <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+              </Card.Body> */}
+            </Card>
         </li>
         <div class="w3-container w3 w3-cell">
           <ul style={{ listStyle: "none"}}>
@@ -65,13 +64,13 @@ const AboutUs = () => {
                       variant="top"
                       src="https://www.infosys.com/content/dam/infosys-web/en/home/images/insight.jpg"
                     />
-                    <Card.Body>
+                    {/* <Card.Body>
                       <Card.Title>Card Title</Card.Title>
                       <Card.Text>
                         Some quick example text to build on the card title and
                         make up the bulk of the card's content.
                       </Card.Text>
-                    </Card.Body>
+                    </Card.Body> */}
                   </Card>
                 </li>
                 <li>
@@ -80,13 +79,13 @@ const AboutUs = () => {
                       variant="top"
                       src="https://www.infosys.com/content/dam/infosys-web/en/home/images/innovate.jpg"
                     />
-                    <Card.Body >
+                    {/* <Card.Body >
                       <Card.Title>Card Title</Card.Title>
                       <Card.Text>
                         Some quick example text to build on the card title and
                         make up the bulk of the card's content.
                       </Card.Text>
-                    </Card.Body>
+                    </Card.Body> */}
                   </Card>
                 </li>
                 <li>
@@ -95,13 +94,13 @@ const AboutUs = () => {
                       variant="top"
                       src="https://www.infosys.com/content/dam/infosys-web/en/home/images/accelerate.jpg"
                     />
-                    <Card.Body>
+                    {/* <Card.Body>
                       <Card.Title>Card Title</Card.Title>
                       <Card.Text>
                         Some quick example text to build on the card title and
                         make up the bulk of the card's content.
                       </Card.Text>
-                    </Card.Body>
+                    </Card.Body> */}
                   </Card>
                 </li>
                 <li>
@@ -110,13 +109,13 @@ const AboutUs = () => {
                       variant="top"
                       src="https://th.bing.com/th/id/OIP.7xgO_DC9HV4Zg3-KRtaH9QHaHa?rs=1&pid=ImgDetMain/100px180"
                     />
-                    <Card.Body>
+                    {/* <Card.Body>
                       <Card.Title>Card Title</Card.Title>
                       <Card.Text>
                         Some quick example text to build on the card title and
                         make up the bulk of the card's content.
                       </Card.Text>
-                    </Card.Body>
+                    </Card.Body> */}
                   </Card>
                 </li>
               </ul>
