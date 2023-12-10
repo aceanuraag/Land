@@ -36,11 +36,21 @@ const Services = () => {
       <div className="flex">
         <ul style={{ display: "flex" }}>
           <li style={{ listStyle: "none", display: "flex" }}>
-            <Card style={cardStyle}>
+          <div class="w3-card-4">
+              <div class="w3-display-container w3-text-white">
+                <img src="https://th.bing.com/th/id/OIP.vlSqXpPPvVIYXW6GPhy0RQHaJ4?rs=1&pid=ImgDetMain" alt="Lights" style={{width:"100%"}} />
+                <div class="w3-xlarge w3-display-bottomleft w3-padding">
+                  {/* LONDON 60&deg; F */}
+                  <h3>Experience</h3>
+                  <p>Design-led transformation. From brand to expertise</p>
+                </div>
+              </div>
+            </div>
+            {/* <Card style={cardStyle}>
               <Card.Img
                 variant="top"
                 src="https://www.infosys.com/content/dam/infosys-web/en/home/images/insight.jpg"
-              />
+              /> */}
               {/* <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
@@ -48,7 +58,7 @@ const Services = () => {
                   the bulk of the card's content.
                 </Card.Text>
               </Card.Body> */}
-            </Card>
+            {/* </Card> */}
           </li>
           <div class="w3-container w3 w3-cell">
             <ul style={{ listStyle: "none" }}>

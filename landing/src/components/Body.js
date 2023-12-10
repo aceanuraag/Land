@@ -13,19 +13,19 @@ const Body = () => {
   return (
     <div>
       <CarouselBox />
-
+      <hr />
       <Introduction />
-
+      <hr />
       <Services />
-
+      <hr />
       <AboutUs />
-
+      <hr />
       <Industries />
-
+      <hr />
       <Carr />
-
+      <hr />
       <Cta />
-
+      <hr />
       <Footer />
     </div>
   );
