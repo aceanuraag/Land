@@ -40,7 +40,7 @@ const AboutUs = () => {
       <div className="cards-container">
         <ul style={{ display: "flex" }}>
           <li style={{ listStyle: "none" }}>
-            <div class="w3-card-4">
+            <div class="w3-card-4  w3-bottombar">
               <div class="w3-display-container w3-text-white">
                 <img src="https://th.bing.com/th/id/OIP.vlSqXpPPvVIYXW6GPhy0RQHaJ4?rs=1&pid=ImgDetMain" alt="Lights" style={{width:"100%"}} />
                 <div class="w3-xlarge w3-display-bottomleft w3-padding">
@@ -69,7 +69,7 @@ const AboutUs = () => {
               <li>
                 <ul style={{ listStyle: "none", ...cardGridContainerStyle }}>
                   <li>
-                    <Card style={cardStyle} className="custom-card">
+                    <Card style={cardStyle} className="custom-card  w3-bottombar">
                       <Card.Img
                         variant="top"
                         src="https://www.infosys.com/content/dam/infosys-web/en/home/images/insight.jpg"
@@ -84,7 +84,7 @@ const AboutUs = () => {
                     </Card>
                   </li>
                   <li>
-                    <Card style={cardStyle} className="custom-card">
+                    <Card style={cardStyle} className="custom-card  w3-bottombar">
                       <Card.Img
                         variant="top"
                         src="https://www.infosys.com/content/dam/infosys-web/en/home/images/innovate.jpg"
@@ -99,7 +99,7 @@ const AboutUs = () => {
                     </Card>
                   </li>
                   <li>
-                    <Card style={cardStyle} className="custom-card">
+                    <Card style={cardStyle} className="custom-card  w3-bottombar">
                       <Card.Img
                         variant="top"
                         src="https://www.infosys.com/content/dam/infosys-web/en/home/images/accelerate.jpg"
@@ -114,7 +114,7 @@ const AboutUs = () => {
                     </Card>
                   </li>
                   <li>
-                    <Card style={cardStyle} className="custom-card">
+                    <Card style={cardStyle} className="custom-card  w3-bottombar">
                       <Card.Img
                         variant="top"
                         src="https://th.bing.com/th/id/OIP.7xgO_DC9HV4Zg3-KRtaH9QHaHa?rs=1&pid=ImgDetMain/100px180"

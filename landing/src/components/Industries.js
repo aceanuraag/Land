@@ -21,7 +21,7 @@ const Industries = () => {
             padding: "50px",
           }}
         >
-          <li className="w3-container" style={{ listStyle: "none" }}>
+          <li className="w3-container  w3-bottombar " style={{ listStyle: "none" }}>
             <img
               src="https://www.infosys.com/content/dam/infosys-web/en/global-resource/18/banner/annual-report-2023-mob.jpg"
               alt="Image"
