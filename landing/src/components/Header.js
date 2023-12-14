@@ -3,19 +3,20 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 // import NavDropdown from "react-bootstrap/NavDropdown";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <Navbar expand="lg" style={{ zIndex: 1000 }}>
       <Container>
-        <Navbar.Brand href="#home">Acetians</Navbar.Brand>
+        <Navbar.Brand href="#home"><Link to="home">Acetians</Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="w3-padding w3-display-topright">
-            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#home"><Link to="home" >Home</Link></Nav.Link>
             <Nav.Link href="#link">Link</Nav.Link>
-            <Nav.Link href="#contact us">Contact Us</Nav.Link>
-            <Nav.Link href="#about us">About Us</Nav.Link>
+            <Nav.Link href="#cta"><Link to="cta">Contact Us</Link></Nav.Link>
+            <Nav.Link href="#about us"><Link to="/about-us">AboutUs</Link></Nav.Link>
             <Nav.Link href="#search">
               <i class="material-icons">search</i>
             </Nav.Link>
