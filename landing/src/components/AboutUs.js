@@ -1,18 +1,15 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
 import "./AboutUs.css"; // Import your CSS file for styling
 
 const AboutUs = () => {
-  const cardStyle = {
-    width: "18rem",
-    margin: "10px",
+  const containerStyle = {
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    padding: "10px",
+    alignItems: "center",
+    justifyContent: "center",
     display: "flex",
-  };
-
-  const cardGridContainerStyle = {
-    display: "grid",
-    gridTemplateColumns: "repeat(2, 1fr)",
-    listStyle: "none",
+    flexDirection: "column",
   };
 
   return (
@@ -37,12 +34,16 @@ const AboutUs = () => {
           <p>Training (days) conducted for employees, globally</p>
         </div>
       </div>
-      <div className="cards-container">
+      <div  style={containerStyle}>
         <ul style={{ display: "flex" }}>
-          <li style={{ listStyle: "none" }}>
-            <div class="w3-card-4  w3-bottombar">
+          <li style={{ listStyle: "none", display: "flex" }}>
+            <div class="w3-card  w3-card-4">
               <div class="w3-display-container w3-text-white">
-                <img src="https://th.bing.com/th/id/OIP.vlSqXpPPvVIYXW6GPhy0RQHaJ4?rs=1&pid=ImgDetMain" alt="Lights" style={{width:"100%"}} />
+                <img
+                  src="https://th.bing.com/th/id/OIP.vlSqXpPPvVIYXW6GPhy0RQHaJ4?rs=1&pid=ImgDetMain"
+                  alt="Lights"
+                  style={{ width: "100%" }}
+                />
                 <div class="w3-xlarge w3-display-bottomleft w3-padding">
                   {/* LONDON 60&deg; F */}
                   <h3>Experience</h3>
@@ -50,103 +51,49 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
-            {/* <Card style={cardStyle}>
-              <Card.Img
-                variant="top"
-                src="https://www.infosys.com/content/dam/infosys-web/en/home/images/insight.jpg"
-              />
-              {/* <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
-              </Card.Body> */}
-            {/* </Card> */}
           </li>
-          <div class="w3-container w3 w3-cell">
-            <ul style={{ listStyle: "none" }}>
-              <li>
-                <ul style={{ listStyle: "none", ...cardGridContainerStyle }}>
-                  <li>
-                    <Card style={cardStyle} className="custom-card  w3-bottombar">
-                      <Card.Img
-                        variant="top"
-                        src="https://www.infosys.com/content/dam/infosys-web/en/home/images/insight.jpg"
-                      />
-                      {/* <Card.Body>
-                      <Card.Title>Card Title</Card.Title>
-                      <Card.Text>
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </Card.Text>
-                    </Card.Body> */}
-                    </Card>
-                  </li>
-                  <li>
-                    <Card style={cardStyle} className="custom-card  w3-bottombar">
-                      <Card.Img
-                        variant="top"
-                        src="https://www.infosys.com/content/dam/infosys-web/en/home/images/innovate.jpg"
-                      />
-                      {/* <Card.Body >
-                      <Card.Title>Card Title</Card.Title>
-                      <Card.Text>
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </Card.Text>
-                    </Card.Body> */}
-                    </Card>
-                  </li>
-                  <li>
-                    <Card style={cardStyle} className="custom-card  w3-bottombar">
-                      <Card.Img
-                        variant="top"
-                        src="https://www.infosys.com/content/dam/infosys-web/en/home/images/accelerate.jpg"
-                      />
-                      {/* <Card.Body>
-                      <Card.Title>Card Title</Card.Title>
-                      <Card.Text>
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </Card.Text>
-                    </Card.Body> */}
-                    </Card>
-                  </li>
-                  <li>
-                    <Card style={cardStyle} className="custom-card  w3-bottombar">
-                      <Card.Img
-                        variant="top"
-                        src="https://th.bing.com/th/id/OIP.7xgO_DC9HV4Zg3-KRtaH9QHaHa?rs=1&pid=ImgDetMain/100px180"
-                      />
-                      {/* <Card.Body>
-                      <Card.Title>Card Title</Card.Title>
-                      <Card.Text>
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </Card.Text>
-                    </Card.Body> */}
-                    </Card>
-                  </li>
-                </ul>
-              </li>
-            </ul>
+          <div
+            class="w3-display-container w3-card-4"
+            style={{ height: "auto", width: "500px" }}
+          >
+            <div
+              class="w3-red w3-display-topleft w3-bottombar"
+              style={{ width: "50% ", height: "50%" }}
+            >
+              <img
+                src="https://www.infosys.com/content/dam/infosys-web/en/home/images/insight.jpg"
+                alt="insight"
+              />
+            </div>
+            <div
+              class="w3-red w3-display-topright w3-bottombar"
+              style={{ width: "50%", height: "50%" }}
+            >
+              <img
+                src="https://www.infosys.com/content/dam/infosys-web/en/home/images/innovate.jpg"
+                alt="innovate"
+              />
+            </div>
+            <div
+              class="w3-red w3-display-bottomleft w3-bottombar"
+              style={{ width: "50%", height: "50%" }}
+            >
+              <img
+                src="https://www.infosys.com/content/dam/infosys-web/en/home/images/accelerate.jpg"
+                alt="accelerate"
+              />
+            </div>
+            <div
+              class="w3-red w3-display-bottomright w3-bottombar"
+              style={{ width: "50%", height: "50%" }}
+            >
+              <img
+                src="https://th.bing.com/th/id/OIP.7xgO_DC9HV4Zg3-KRtaH9QHaHa?rs=1&pid=ImgDetMain/100px180"
+                alt="none"
+              />
+            </div>
           </div>
         </ul>
-        {/* <Card className="custom-card">
-          <Card.Img
-            variant="top"
-            src="https://www.infosys.com/content/dam/infosys-web/en/home/images/insight.jpg"
-          />
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up
-              the bulk of the card's content.
-            </Card.Text>
-          </Card.Body>
-        </Card> */}
-        {/* Add more cards here as needed */}
       </div>
     </div>
   );
