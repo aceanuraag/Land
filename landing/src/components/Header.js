@@ -21,15 +21,15 @@ const Header = () => {
                   Partner Education
                 </button>
                 <div className="w3-dropdown-content w3-bar-block w3-border">
-                  <a href="#" className="w3-bar-item w3-button">
+                  <Link href="#" className="w3-bar-item w3-button">
                     Link 1
-                  </a>
-                  <a href="#" className="w3-bar-item w3-button">
+                  </Link>
+                  <Link href="#" className="w3-bar-item w3-button">
                     Link 2
-                  </a>
-                  <a href="#" class="w3-bar-item w3-button">
+                  </Link>
+                  <Link href="#" class="w3-bar-item w3-button">
                     Link 3
-                  </a>
+                  </Link>
                 </div>
               </div>
             </Nav.Link>
@@ -38,15 +38,15 @@ const Header = () => {
                   Robotics
                 </button>
                 <div className="w3-dropdown-content w3-bar-block w3-border">
-                  <a href="#" className="w3-bar-item w3-button">
+                  <Link href="#" className="w3-bar-item w3-button">
                     Link 1
-                  </a>
-                  <a href="#" className="w3-bar-item w3-button">
+                  </Link>
+                  <Link href="#" className="w3-bar-item w3-button">
                     Link 2
-                  </a>
-                  <a href="#" class="w3-bar-item w3-button">
+                  </Link>
+                  <Link href="#" class="w3-bar-item w3-button">
                     Link 3
-                  </a>
+                  </Link>
                 </div>
               </div></Nav.Link>
             <Nav.Link href="#"><div className="w3-dropdown-hover">
@@ -54,24 +54,24 @@ const Header = () => {
                   Industries
                 </button>
                 <div className="w3-dropdown-content w3-bar-block w3-border">
-                  <a href="#" className="w3-bar-item w3-button">
+                  <Link href="#" className="w3-bar-item w3-button">
                     Healthcare
-                  </a>
-                  <a href="#" className="w3-bar-item w3-button">
+                  </Link>
+                  <Link href="#" className="w3-bar-item w3-button">
                     Education
-                  </a>
-                  <a href="#" class="w3-bar-item w3-button">
+                  </Link>
+                  <Link href="#" class="w3-bar-item w3-button">
                     Financial
-                  </a>
-                  <a href="#" class="w3-bar-item w3-button">
+                  </Link>
+                  <Link href="#" class="w3-bar-item w3-button">
                     Public Sector
-                  </a>
-                  <a href="#" class="w3-bar-item w3-button">
+                  </Link>
+                  <Link href="#" class="w3-bar-item w3-button">
                     Retail
-                  </a>
-                  <a href="#" class="w3-bar-item w3-button">
+                  </Link>
+                  <Link href="#" class="w3-bar-item w3-button">
                     Utilities
-                  </a>
+                  </Link>
                 </div>
               </div></Nav.Link>
             <Nav.Link href="#"><div className="w3-dropdown-hover">
@@ -79,36 +79,36 @@ const Header = () => {
                   Services
                 </button>
                 <div className="w3-dropdown-content w3-bar-block w3-border">
-                  <a href="#" className="w3-bar-item w3-button">
+                  <Link href="#" className="w3-bar-item w3-button">
                     Cloud Solution
-                  </a>
-                  <a href="#" className="w3-bar-item w3-button">
+                  </Link>
+                  <Link href="#" className="w3-bar-item w3-button">
                     Consulting
-                  </a>
-                  <a href="#" class="w3-bar-item w3-button">
+                  </Link>
+                  <Link href="#" class="w3-bar-item w3-button">
                     Infrastructure Solution
-                  </a>
-                  <a href="#" class="w3-bar-item w3-button">
+                  </Link>
+                  <Link href="#" class="w3-bar-item w3-button">
                     Operational Support
-                  </a>
-                  <a href="#" class="w3-bar-item w3-button">
+                  </Link>
+                  <Link href="#" class="w3-bar-item w3-button">
                     Digital Experience
-                  </a>
-                  <a href="#" class="w3-bar-item w3-button">
+                  </Link>
+                  <Link href="#" class="w3-bar-item w3-button">
                     Infrastructure Managed Services
-                  </a>
-                  <a href="#" class="w3-bar-item w3-button">
+                  </Link>
+                  <Link href="#" class="w3-bar-item w3-button">
                     Bussiness App
-                  </a>
-                  <a href="#" class="w3-bar-item w3-button">
+                  </Link>
+                  <Link href="#" class="w3-bar-item w3-button">
                     Hardware Solution
-                  </a>
-                  <a href="#" class="w3-bar-item w3-button">
+                  </Link>
+                  <Link href="#" class="w3-bar-item w3-button">
                     Start Up Support
-                  </a>
-                  <a href="#" class="w3-bar-item w3-button">
+                  </Link>
+                  <Link href="#" class="w3-bar-item w3-button">
                     OutSourcing
-                  </a>
+                  </Link>
                 </div>
               </div></Nav.Link>
             <Nav.Link href="#"><div className="w3-dropdown-hover">
