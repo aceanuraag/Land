@@ -9,8 +9,8 @@ const Header = () => {
   return (
     <Navbar expand="lg" style={{ zIndex: 1000 }}>
       <Container>
-        <Navbar.Brand href="#home">
-          <Link to="home">Acetians</Link>
+        <Navbar.Brand href="#home" >
+          <Link to="home"><h5 style={{marginTop:"9px"}}>Acetians</h5></Link>
         </Navbar.Brand>
         {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
         <Navbar.Collapse id="basic-navbar-nav">
@@ -34,9 +34,9 @@ const Header = () => {
               </div>
             </Nav.Link>
             <Nav.Link href="#">
-              <div className="w3-dropdown-hover">
+              <div className="w3-dropdown-hover" style={{width:"100% !important"}}>
                 <button class="w3-button  w3-white w3-hover-teal">Robotics</button>
-                <div className="w3-dropdown-content w3-bar-block w3-border">
+                <div className="w3-dropdown-content w3-bar-block w3-border" style={{width:"100% !important"}}>
                   <Link href="#" className="w3-bar-item w3-button">
                     Link 1
                   </Link>
@@ -126,6 +126,11 @@ const Header = () => {
                   </Link>
                 </div>
               </div>
+            </Nav.Link>
+            <Nav.Link href="#" style={{marginTop:"9px"}}>
+              <Link>
+              <i class="material-icons" >search</i>
+              </Link>
             </Nav.Link>
 
             {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
