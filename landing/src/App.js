@@ -13,6 +13,7 @@ const App = () => {
     <BrowserRouter>
       <div className="app">
         <Header />
+        <br />
         {/* <SideBar/> */}
         <Routes>
           <Route exact path="/" element={<Body />} />

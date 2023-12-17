@@ -12,12 +12,12 @@ const Header = () => {
         <Navbar.Brand href="#home">
           <Link to="home">Acetians</Link>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="w3-padding w3-display-topright">
             <Nav.Link href="#">
               <div className="w3-dropdown-hover">
-                <button class="w3-button w3-small w3-white">
+                <button class="w3-button  w3-white w3-hover-teal">
                   Partner Education
                 </button>
                 <div className="w3-dropdown-content w3-bar-block w3-border">
@@ -33,10 +33,9 @@ const Header = () => {
                 </div>
               </div>
             </Nav.Link>
-            <Nav.Link href="#"><div className="w3-dropdown-hover">
-                <button class="w3-button w3-small w3-white">
-                  Robotics
-                </button>
+            <Nav.Link href="#">
+              <div className="w3-dropdown-hover">
+                <button class="w3-button  w3-white w3-hover-teal">Robotics</button>
                 <div className="w3-dropdown-content w3-bar-block w3-border">
                   <Link href="#" className="w3-bar-item w3-button">
                     Link 1
@@ -48,11 +47,11 @@ const Header = () => {
                     Link 3
                   </Link>
                 </div>
-              </div></Nav.Link>
-            <Nav.Link href="#"><div className="w3-dropdown-hover">
-                <button class="w3-button w3-small w3-white">
-                  Industries
-                </button>
+              </div>
+            </Nav.Link>
+            <Nav.Link href="#">
+              <div className="w3-dropdown-hover">
+                <button class="w3-button  w3-white w3-hover-teal">Industries</button>
                 <div className="w3-dropdown-content w3-bar-block w3-border">
                   <Link href="#" className="w3-bar-item w3-button">
                     Healthcare
@@ -73,11 +72,11 @@ const Header = () => {
                     Utilities
                   </Link>
                 </div>
-              </div></Nav.Link>
-            <Nav.Link href="#"><div className="w3-dropdown-hover">
-                <button class="w3-button w3-small w3-white">
-                  Services
-                </button>
+              </div>
+            </Nav.Link>
+            <Nav.Link href="#">
+              <div className="w3-dropdown-hover">
+                <button class="w3-button  w3-white w3-hover-teal">Services</button>
                 <div className="w3-dropdown-content w3-bar-block w3-border">
                   <Link href="#" className="w3-bar-item w3-button">
                     Cloud Solution
@@ -110,9 +109,12 @@ const Header = () => {
                     OutSourcing
                   </Link>
                 </div>
-              </div></Nav.Link>
-            <Nav.Link href="#"><div className="w3-dropdown-hover">
-                <button class="w3-button w3-small w3-white w3-text-bold">
+              </div>
+            </Nav.Link>
+           
+            <Nav.Link href="#">
+              <div className="w3-dropdown-hover">
+                <button class="w3-button  w3-white w3-text-bold w3-hover-teal">
                   People
                 </button>
                 <div className="w3-dropdown-content w3-bar-block w3-border">
@@ -122,10 +124,9 @@ const Header = () => {
                   <Link href="#" className="w3-bar-item w3-button">
                     Culture
                   </Link>
-                  
                 </div>
-              </div></Nav.Link>
-            
+              </div>
+            </Nav.Link>
 
             {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
